@@ -45,3 +45,14 @@ renv::update()
 use_package("renv","suggests")
 ```
 
+```{r}
+renv::install("lintr")
+```
+
+```{r}
+use_package("lintr" ,"suggests")
+```
+```{r}
+lintr::lint_dir()
+```
+
