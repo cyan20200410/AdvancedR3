@@ -20,3 +20,17 @@ usethis::use_package("fs")
 usethis::use_package("usethis")
 ```
 
+```{r}
+# libpath = 'C:/Users/wxn469/2/Desktop/AdvancedR3'
+renv::init(bare = TRUE)
+```
+
+```{r}
+dplyr::mutate()
+```
+
+```{r}
+usethis::edit_r_profile("project")
+```
+
+
