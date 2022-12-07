@@ -33,4 +33,15 @@ dplyr::mutate()
 usethis::edit_r_profile("project")
 ```
 
+```{r}
+renv::restore()
+```
+
+```{r}
+renv::update()
+```
+
+```{r set as workflow dependency}
+use_package("renv","suggests")
+```
 
