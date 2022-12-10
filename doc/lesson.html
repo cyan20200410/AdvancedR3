@@ -338,6 +338,44 @@ ul.task-list li input[type="checkbox"] {
 # … with 26 more rows</code></pre>
 </div>
 </div>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 36 × 16
+   code   gender   age class metabolit…¹ metab…² metab…³ metab…⁴ metab…⁵ metab…⁶
+   &lt;chr&gt;  &lt;chr&gt;  &lt;dbl&gt; &lt;chr&gt;       &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
+ 1 ERI109 M         25 CT          208.    18.6     44.1    147.    587.    31.6
+ 2 ERI111 M         39 CT          219.    20.8     28.1    153.    585.    28.9
+ 3 ERI163 W         58 CT           57.1   15.5     75.1    144.    558.    36.6
+ 4 ERI375 M         24 CT           19.2   10.2     22.0    220.    606.    39.4
+ 5 ERI376 M         26 CT           35.4   13.5     29.5    282.    554.    52.1
+ 6 ERI391 M         31 CT           30.4    9.53    38.0    220.    597.    42.8
+ 7 ERI392 M         24 CT           21.7    9.87    34.8    215.    607.    39.9
+ 8 ERI79  W         26 CT          185.    17.6    109.     153.    546.    32.7
+ 9 ERI81  M         52 CT          207.    17.0     49.6    150.    593.    28.4
+10 ERI83  M         25 CT          322.    19.7     29.9    153.    606.    26.5
+# … with 26 more rows, 6 more variables: metabolite_pufa &lt;dbl&gt;,
+#   metabolite_phosphatidylethanolamine &lt;dbl&gt;,
+#   metabolite_phosphatidycholine &lt;dbl&gt;, metabolite_phospholipids &lt;dbl&gt;,
+#   metabolite_mufa_pufa &lt;dbl&gt;, metabolite_cd_cl_3_solvent &lt;dbl&gt;, and
+#   abbreviated variable names ¹​metabolite_tms_interntal_standard,
+#   ²​metabolite_cholesterol, ³​metabolite_lipid_ch_3_1,
+#   ⁴​metabolite_lipid_ch_3_2, ⁵​metabolite_lipid_ch_2, …</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 4 × 5
+  term                   estimate std.error statistic p.value
+  &lt;chr&gt;                     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;
+1 (Intercept)               1.11     1.29      0.0817  0.935 
+2 genderW                   0.493    0.779    -0.907   0.365 
+3 age                       1.01     0.0377    0.183   0.855 
+4 metabolite_cholesterol    2.97     0.458     2.38    0.0175</code></pre>
+</div>
+</div>
+<div class="cell">
+
+</div>
 
 
 
